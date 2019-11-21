@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Self Driving Cars</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <header>
+      <h2>Menu</h2>
+      <ul>
+	<li> <a href="tweets.html"> Tweets! </a></li>
+	<li> <a href="page1.html"> Advantages of Self Driving cars </a></li>
+	<li> <a href="page2.html"> Changes in the industry </a></li>
+	<li> <a href="page3.html"> Fictional Driving Cars </a></li>
+	<li> <a href="page4.html"> Moral Dilemas </a></li>
+	<li> <a href="author.html"> About the author </a></li>
+      </ul> 
+    </header>
+    <main>
+    <article>
+      <img src="https://www.holbertonschool.com/holberton-logo.png" alt="Holberton logo" >
+      <h1>Self driving cars</h1>
+      <p>A self-driving car, also known as an autonomous
+      vehicle (AV), connected and autonomous vehicle (CAV), driverless
+      car, robo-car, or robotic car, is a vehicle that is
+      capable of sensing its environment and moving safely with little
+	or no human input.</p>
+      <h2>History</h2>
+      <p>Experiments have been conducted on self-driving cars since at
+      least the 1920s; promising trials took place in the 1950s and
+      work has proceeded since then. The first self-sufficient and
+      truly autonomous cars appeared in the 1980s, with Carnegie
+      Mellon University's Navlab and ALV projects in 1984 and
+      Mercedes-Benz and Bundeswehr University Munich's Eureka
+      Prometheus Project in 1987. Since then, numerous major companies
+      and research organizations have developed working autonomous
+      vehicles including Mercedes-Benz, General Motors, Continental
+      Automotive Systems, Autoliv Inc., Bosch, Nissan, Toyota, Audi,
+      Volvo, Vislab from University of Parma, Oxford University and
+      Google.In July 2013, Vislab demonstrated BRAiVE, a vehicle that
+      moved autonomously on a mixed traffic route open to public
+      traffic.  As of 2019, twenty-nine U.S. states have passed laws
+      permitting autonomous cars. In Europe, cities in Belgium,
+      France, Italy and the UK are planning to operate transport
+      systems for driverless cars, and Germany, the Netherlands, and
+      Spain have allowed testing robotic cars in traffic. </p>
+    </article>
+    <aside>
+      <p>
+	placeholder to add comment thread later
+      </p>
+    </aside>
+    </main>
+    <footer>
+      Made by <a href="https://twitter.com/manuelpv17"
+      target="_blank">Manuel Puerta Villa</a>
+      for <a href="https://www.holbertonschool.com"
+	     target="_blank">Holberton School</a>
+    </footer>
+  </body>
+</html>
