@@ -1,0 +1,140 @@
+body{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 95%;
+    margin: auto;
+    background-image: image();
+}
+
+header{
+    border-bottom-width: 0px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+aside{
+    flex: 1;
+    overflow-y: auto;
+}
+
+article{
+    flex: 2;
+    overflow-y: auto;
+    
+  
+    font-size: 18px;
+    font-weight: normal;
+    line-height: normal;
+
+    margin: 0px;
+    border: 0px;
+    padding-bottom: 20px;
+
+    background-color: #333333;
+    color: #fff;   
+}
+
+footer{
+    border: 2px white solid;
+    border-radius: 10px;
+    margin: 20px;
+    margin-bottom: 20px;
+
+    background-color: #333333;
+    text-align: center;
+    color: white;
+    vertical-align: center;
+}
+
+.ulHeader{
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.ulHeader a{
+    color: white;
+    background-color: #333333;
+    padding: 20px;
+    margin: 0px;
+}
+
+.ulHeader a:hover{
+    background-color: tomato;
+    color: white;
+}
+
+h1, h2, h3{
+    color: tomato;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+body a{
+    text-decoration: none;
+    color: tomato;
+}
+
+a:hover{
+    color: violet;
+}
+
+a:active{
+    color: teal;
+}
+
+strong{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.pFooter{
+    margin: 0px;
+}
+
+.youtube{
+    display: block;
+    margin: 0 auto;
+}
+
+.articuleTweets{
+    display: flex;
+    flex-direction: column;
+}
+
+.letstweet{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.letstweet a:visited{
+    color: yellow;
+}
+
+
+.divThePlan{
+    display:flex;
+}
+
+.divThePlan p{
+    margin: 0px;
+    padding-top: 14px;
+}
+
+.divThePlan img{
+    width: 150px;
+}
+
