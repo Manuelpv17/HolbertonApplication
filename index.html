@@ -8,6 +8,7 @@
 
     <link href="https://www.holbertonschool.com/level2/holberton.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
+    <script src="behavior.js"></script>.
 
     <title>Self Driving Cars</title>
 </head>
@@ -57,40 +58,58 @@
                 allowfullscreen></iframe>
 
             <hr>
-           
+
             <h3>THE plan: </h3>
-            
-            <div class="divThePlan"> 
-            <p > Learn how to program self-driving cars with: </p>
-            <a href="https://www.holbertonschool.com/holberton-logo.png" target="blank"><img src="https://www.holbertonschool.com/holberton-logo.png" alt="holberton-logo"></a>
-            
-        </div>
+
+            <div class="divThePlan">
+                <p> Learn how to program self-driving cars with: </p>
+                <a href="https://www.holbertonschool.com/holberton-logo.png" target="blank"><img
+                        src="https://www.holbertonschool.com/holberton-logo.png" alt="holberton-logo"></a>
+
+            </div>
 
 
 
-            </table>
-            <a target="blank"
-                href="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Yellow_square_happy_smiley.jpg/800px-Yellow_square_happy_smiley.jpg"><img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Yellow_square_happy_smiley.jpg/800px-Yellow_square_happy_smiley.jpg"
-                    alt="Happy"></a>
 
-                    <hr>
-        
-                    <p class="letstweet">Share the hype with the world with <a href="https://twitter.com" target="_blank"> #LetMeSleepInMyCarWhileDriving </a></p>
+            <img id="smart_thumbnail" class="small"
+                src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Yellow_square_happy_smiley.jpg" alt="Happy">
+
+            <hr>
+
+            <p class="letstweet">Share the hype with the world with <a href="https://twitter.com" target="_blank">
+                    #LetMeSleepInMyCarWhileDriving </a></p>
 
 
         </article>
 
 
         <aside>
-            <p>placeholder to add comment thread later</p>
+            <div id="disqus_thread"></div>
+            <script>
+
+             
+                var disqus_config = function () {
+                this.page.url = http://107.20.128.217/;  
+                this.page.identifier = PAGE_IDENTIFIER; 
+                };
+                
+                (function () { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://self-driving-cars.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered
+                    by Disqus.</a></noscript>
+
         </aside>
 
     </main>
 
     <footer>
-        <p class="pFooter">Made by <a href="https://twitter.com/manuelpv17" target="_blank">Manuel Puerta Villa</a> for <a
-                href="https://www.holbertonschool.com" target="_blank">Holberton School.</a></p>
+        <p class="pFooter">Made by <a href="https://twitter.com/manuelpv17" target="_blank">Manuel Puerta Villa</a> for
+            <a href="https://www.holbertonschool.com" target="_blank">Holberton School.</a></p>
     </footer>
 
 </body>
