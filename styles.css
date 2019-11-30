@@ -2,11 +2,12 @@ body{
     display: flex;
     flex-direction: column;
     
-    background-color: gray;
+    background-color: lightslategray;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 95%;
     margin: auto;
-    background-image: image();
+    
+    
 }
 
 header{
@@ -14,14 +15,21 @@ header{
 }
 
 main{
+    
     display: flex;
     flex-direction: row;
     flex: auto;
+    margin-bottom: 0px ;
+    padding-bottom: 0px;
 }
 
 aside{
     flex: 1;
     overflow-y: auto;
+
+    background-color: lightslategray;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 article{
@@ -36,8 +44,9 @@ article{
     margin: 0px;
     border: 0px;
     padding-bottom: 20px;
+    padding-top: 10px;
 
-    background-color: #333333;
+    background-color: lightslategray;
     color: #fff;   
 }
 
@@ -47,33 +56,33 @@ footer{
     margin: 20px;
     margin-bottom: 20px;
 
-    background-color: #333333;
+    background-color: lightslategrey;
     text-align: center;
     color: white;
     vertical-align: center;
 }
 
 .ulHeader{
-    margin: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+    font-size: 18px;
     font-style: oblique;
 }
 
 .ulHeader a{
     color: white;
-    background-color: #333333;
+    background-color: lightslategray;
     padding: 20px;
     margin: 0px;
 }
 
 .ulHeader a:hover{
-    background-color: tomato;
+    background-color: silver;
     color: white;
 }
 
 h1, h2, h3{
-    color: tomato;
+    color: lightblue;
     text-align: center;
 }
 
@@ -83,7 +92,7 @@ h1{
 
 body a{
     text-decoration: none;
-    color: tomato;
+    color: lightblue;
 }
 
 a:hover{
@@ -103,38 +112,91 @@ strong{
     margin: 0px;
 }
 
-.youtube{
-    display: block;
-    margin: 0 auto;
-}
-
-.articuleTweets{
-    display: flex;
-    flex-direction: column;
-}
-
 .letstweet{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
     color: white;
-    text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
+
 }
 
-.letstweet a:visited{
-    color: yellow;
+.letstweet p{
+    margin: 0px;
+    padding: 0px;
 }
-
 
 .divThePlan{
     display:flex;
+    justify-content: center;
 }
 
 .divThePlan p{
     margin: 0px;
-    padding-top: 14px;
+    padding-top:12px;
 }
 
 .divThePlan img{
     width: 150px;
 }
 
+.clickImg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.fb-share-button{
+    margin-top: 15px;
+}
+
+.flexGif{
+    display: flex;
+    margin: 30px 0px;
+}
+
+.flexGif img{
+    flex: 2;
+    margin-left: 10px;
+}
+
+.flexGif p,h2{
+    flex: 2;
+    margin: 0px;
+}
+
+.flexYou{
+    display: flex;
+    margin: 30px 0px;
+}
+
+.flexYou div{
+    flex: 1;
+    order: 2;
+    margin-left: 10px;
+    padding-bottom: 50px;
+    align-self: center;
+}
+
+.flexYou h2{
+    margin-bottom: 30px;
+}
+
+.flexYou iframe{
+    flex: 2;
+    order: 1;
+}
+
+.articuleTweets{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tweetClass{
+    width: 400px;
+}
