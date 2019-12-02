@@ -6,8 +6,6 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 95%;
     margin: auto;
-    
-    
 }
 
 header{
@@ -15,7 +13,6 @@ header{
 }
 
 main{
-    
     display: flex;
     flex-direction: row;
     flex: auto;
@@ -60,6 +57,7 @@ footer{
     text-align: center;
     color: white;
     vertical-align: center;
+
 }
 
 .ulHeader{
@@ -69,14 +67,13 @@ footer{
     font-style: oblique;
 }
 
-.ulHeader a{
+.ulHeader li{
     color: white;
     background-color: lightslategray;
-    padding: 20px;
     margin: 0px;
 }
 
-.ulHeader a:hover{
+.ulHeader li:hover{
     background-color: silver;
     color: white;
 }
@@ -95,7 +92,7 @@ body a{
     color: lightblue;
 }
 
-a:hover{
+article a:hover{
     color: violet;
 }
 
@@ -132,15 +129,36 @@ strong{
 .divThePlan{
     display:flex;
     justify-content: center;
+    align-items: center;
 }
 
 .divThePlan p{
     margin: 0px;
-    padding-top:12px;
+    padding:0px;
 }
 
 .divThePlan img{
-    width: 150px;
+    width: 250px;
+}
+
+.thePlan h1{
+    color: seagreen;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-size: 60px;
+}
+
+.thePlan{
+    font-size: 23px;
+}
+
+.thePlan{
+    background-image: url('https://i.ytimg.com/vi/ZXsQAXx_ao0/maxresdefault.jpg');
+    border: solid white 5px;
+}
+
+.littleShia{
+    position: fixed;
+    top: 120px;
 }
 
 .clickImg{
@@ -154,15 +172,17 @@ strong{
     margin-top: 15px;
 }
 
+@media(min-width:800px){
 .flexGif{
     display: flex;
+    flex-direction: row;
     margin: 30px 0px;
+}
 }
 
 .flexGif img{
-    flex: 2;
-    margin-left: 10px;
-}
+    flex: 3;
+    margin-left: 10px;}
 
 .flexGif p,h2{
     flex: 2;
@@ -172,10 +192,11 @@ strong{
 .flexYou{
     display: flex;
     margin: 30px 0px;
+    flex-wrap: wrap;
 }
 
 .flexYou div{
-    flex: 1;
+    flex: 2;
     order: 2;
     margin-left: 10px;
     padding-bottom: 50px;
@@ -187,7 +208,7 @@ strong{
 }
 
 .flexYou iframe{
-    flex: 2;
+    flex: 3;
     order: 1;
 }
 
@@ -200,3 +221,143 @@ strong{
 .tweetClass{
     width: 400px;
 }
+
+.nestedOrderList ol {
+    counter-reset: item;
+}
+.nestedOrderList li {
+    display: block
+}
+.nestedOrderList li:before {
+    content: counters(item, ".") " ";
+    counter-increment: item
+}
+
+.justify{
+    text-align: justify;
+}
+
+.warning{
+    border: 5px dashed red;
+    padding: 20px;
+    margin: 30px;
+    background: lightcoral;
+    text-align: center;
+}
+
+.warning p{
+    padding: 0px;
+    margin: 0px;
+}
+
+.warning a{
+    color: red;
+}
+
+.warning a:hover{
+    color: orangered;
+}
+
+.warning strong{
+    color: red;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.Shia{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  
+  ul {
+      list-style: none;
+      margin: 0;
+      padding-left: 0;
+  }
+  
+  header li {
+      color: #fff;
+      display: block;
+      float: left;
+      padding: 1rem;
+      position: relative;
+      text-decoration: none;
+    transition-duration: 0.5s;
+  }
+    
+  header li a {
+    color: #fff;
+  }
+  
+  header li:hover,
+  header  li:focus-within {
+      cursor: pointer;
+  }
+  
+  header li:focus-within a {
+    outline: none;
+  }
+  
+  header ul li ul {
+      visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+      position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+      left: 0;
+    display: none;
+  }
+  
+  ul li:hover > ul,
+  ul li:focus-within > ul,
+  ul li ul:hover,
+  ul li ul:focus {
+     visibility: visible;
+     opacity: 1;
+     display: block;
+  }
+  
+  ul li ul li {
+      clear: both;
+    width: 100%;
+  }
+
+  .center{
+     display: flex;
+     justify-content: center;
+  }
+
+  .comparative{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .comparative div{
+      flex: 3;
+  }
+
+  .comparative p{
+      flex: 1;
+      text-align: center;
+      font-size: 50px;
+  }
+
+  .comparativeT{
+      margin: 30px;
+  }
+
+  .twoImg{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  .twoImg img{
+      flex: 1;
+      margin: 20px;
+  }
