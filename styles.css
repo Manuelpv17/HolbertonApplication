@@ -3,7 +3,7 @@ body{
     flex-direction: column;
     
     background-color: lightslategray;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Solway', Verdana, Geneva, Tahoma, sans-serif;
     width: 95%;
     margin: auto;
 }
@@ -61,7 +61,7 @@ footer{
 }
 
 .ulHeader{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Solway', Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 18px;
     font-style: oblique;
@@ -81,6 +81,7 @@ footer{
 h1, h2, h3{
     color: lightblue;
     text-align: center;
+    font-family:'Solway', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1{
@@ -130,6 +131,8 @@ strong{
 .divThePlan img{
     width: 250px;
 }
+
+
 
 .thePlan h1{
     color: seagreen;
@@ -316,6 +319,7 @@ strong{
   ul li:focus-within > ul,
   ul li ul:hover,
   ul li ul:focus {
+      
      visibility: visible;
      opacity: 1;
      display: block;
@@ -324,6 +328,7 @@ strong{
   ul li ul li {
       clear: both;
     width: 100%;
+    z-index: 100;
   }
 
   .center{
@@ -362,3 +367,7 @@ strong{
       flex: 1;
       margin: 20px;
   }
+
+.nestedli li{
+    background-color: lightgrey;
+}
