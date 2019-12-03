@@ -165,24 +165,45 @@ strong{
     margin-top: 15px;
 }
 
-@media(min-width:800px){
-.flexGif{
-    display: flex;
-    flex-direction: row;
-    margin: 30px 0px;
+@media(min-width:801px){
+    .flexGif{
+        display: flex;
+        flex-direction: row;
+        margin: 30px 0px;
 
-} 
-.letstweet{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    } 
+    .letstweet{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
 
 
-    color: white;
-    margin-top: 20px;
-    margin-bottom: 0px;
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    header li {
+        color: #fff;
+        display: block;
+        float: left;
+        padding: 1rem;
+        position: relative;
+        text-decoration: none;
+    transition-duration: 0.5s;
+    }
 }
+@media(max-width:800px){
+    .ulHeader li{
+        display: block;
+    }
+
+    header{
+        height: auto;
+    }
 }
+    
+
 
 .flexGif img{
     flex: 3;
@@ -281,16 +302,7 @@ strong{
       padding-left: 0;
   }
   
-  header li {
-      color: #fff;
-      display: block;
-      float: left;
-      padding: 1rem;
-      position: relative;
-      text-decoration: none;
-    transition-duration: 0.5s;
-  }
-    
+
   header li a {
     color: #fff;
   }
